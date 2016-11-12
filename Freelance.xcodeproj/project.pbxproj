@@ -15,6 +15,10 @@
 		8CA344481DD6956800BFB36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA344461DD6956800BFB36F /* LaunchScreen.storyboard */; };
 		8CA344531DD6956800BFB36F /* FreelanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA344521DD6956800BFB36F /* FreelanceTests.m */; };
 		8CA3445E1DD6956800BFB36F /* FreelanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3445D1DD6956800BFB36F /* FreelanceUITests.m */; };
+		8CA3446D1DD6959A00BFB36F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3446C1DD6959A00BFB36F /* RootViewController.m */; };
+		8CA344701DD6961300BFB36F /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3446F1DD6961300BFB36F /* ViewControllerOne.m */; };
+		8CA344731DD6961F00BFB36F /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA344721DD6961F00BFB36F /* ViewControllerTwo.m */; };
+		8CA344761DD6962C00BFB36F /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA344751DD6962C00BFB36F /* ViewControllerThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		8CA344591DD6956800BFB36F /* FreelanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreelanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA3445D1DD6956800BFB36F /* FreelanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreelanceUITests.m; sourceTree = "<group>"; };
 		8CA3445F1DD6956800BFB36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA3446B1DD6959A00BFB36F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8CA3446C1DD6959A00BFB36F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8CA3446E1DD6961300BFB36F /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		8CA3446F1DD6961300BFB36F /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		8CA344711DD6961F00BFB36F /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		8CA344721DD6961F00BFB36F /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		8CA344741DD6962C00BFB36F /* ViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		8CA344751DD6962C00BFB36F /* ViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		8CA344771DD6971900BFB36F /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Includes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,15 @@
 				8CA344461DD6956800BFB36F /* LaunchScreen.storyboard */,
 				8CA344491DD6956800BFB36F /* Info.plist */,
 				8CA344381DD6956800BFB36F /* Supporting Files */,
+				8CA3446B1DD6959A00BFB36F /* RootViewController.h */,
+				8CA3446C1DD6959A00BFB36F /* RootViewController.m */,
+				8CA3446E1DD6961300BFB36F /* ViewControllerOne.h */,
+				8CA3446F1DD6961300BFB36F /* ViewControllerOne.m */,
+				8CA344711DD6961F00BFB36F /* ViewControllerTwo.h */,
+				8CA344721DD6961F00BFB36F /* ViewControllerTwo.m */,
+				8CA344741DD6962C00BFB36F /* ViewControllerThree.h */,
+				8CA344751DD6962C00BFB36F /* ViewControllerThree.m */,
+				8CA344771DD6971900BFB36F /* Includes.h */,
 			);
 			path = Freelance;
 			sourceTree = "<group>";
@@ -275,6 +297,10 @@
 			files = (
 				8CA344401DD6956800BFB36F /* ViewController.m in Sources */,
 				8CA3443D1DD6956800BFB36F /* AppDelegate.m in Sources */,
+				8CA344701DD6961300BFB36F /* ViewControllerOne.m in Sources */,
+				8CA344731DD6961F00BFB36F /* ViewControllerTwo.m in Sources */,
+				8CA3446D1DD6959A00BFB36F /* RootViewController.m in Sources */,
+				8CA344761DD6962C00BFB36F /* ViewControllerThree.m in Sources */,
 				8CA3443A1DD6956800BFB36F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

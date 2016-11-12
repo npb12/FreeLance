@@ -6,9 +6,10 @@
 //  Copyright © 2016 Neil Ballard. All rights reserved.
 //
 
-#import "AppDelegate.h"
-
+#import "Includes.h"
 @interface AppDelegate ()
+
+@property (nonatomic, strong) RootViewController *rootVC;
 
 @end
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+    
+    
+    if ([self.window.rootViewController isKindOfClass:[RootViewController class]])
+    {
+        self.rootVC = (RootViewController*)self.window.rootViewController;
+    }
     return YES;
 }
 
